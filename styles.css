@@ -573,7 +573,7 @@ body {
   }
     
   
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 550px) {
     body {
       scrollbar-width: none;
 
