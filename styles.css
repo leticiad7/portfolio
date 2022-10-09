@@ -522,7 +522,7 @@ body {
   
   }
   
-  
+  /*
   @media screen and (max-width: 736px) {
     .button {
       margin: 100px 100px;
@@ -570,13 +570,13 @@ body {
   }
   
   }
-    
+    */
   
   @media screen and (max-width: 550px) {
     body {
       scrollbar-width: none;
-
     }
+
     .button {
       margin: 100px 125px;
       padding: 5px;
