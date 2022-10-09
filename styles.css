@@ -280,9 +280,7 @@ body {
       grid-gap: 2rem;
     }
   
-    .gallery,
-    .gallery-item {
-    }
+
   }
   
   @supports (display: grid) {
@@ -576,6 +574,10 @@ body {
     
   
   @media screen and (max-width: 375px) {
+    body {
+      scrollbar-width: none;
+
+    }
     .button {
       margin: 100px 125px;
       padding: 5px;
@@ -583,6 +585,7 @@ body {
       height: 70px;
       text-align: center;
     }
+
     .table-of-contents a {
       margin-right: 25px;
     }
@@ -593,17 +596,12 @@ body {
    }
    
     .intro1{
-  margin-left:-50px;
-  margin-right: 0px;
-  
-  
+    margin-left:-50px;
+    margin-right: 0px;
    }
      
     .gallery2{
-      display: grid;
-      columns: 50% 50%;
-      margin-left: 20px;
-      margin-right: 20px;
+
       margin-top: 0px;
    }
   
@@ -612,13 +610,11 @@ body {
    }
   
    .profile img{
-  position: relative;
-    margin-top: 260px;
-  margin-left: -300px;
-    width: 200px;
-    height: 200px;
+    position: relative;
+    margin-top: 20rem;
+    margin-left: -20rem;
+       }
     
-   }
    .about{
     margin-left: 50px;
     margin-right: 50px;
@@ -642,23 +638,52 @@ body {
   
   
   
-  /*TEST*/
+  /*TEST
   
   @media screen and (max-width: 500px) {
-    .button {
+    body {
+      width: 100vw;
+      height: 100vw;
+      }
+
+         .gallery-item{
+     width: 80%;
+   }
+  
+   .profile img{
+    position: relative;
+    margin-top: 20rem;
+      
+     }
+
+   .about{
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+  
+  
+  h5{
+    font-size: 44px;
+  }
+*/
+
+
+
+    
+    /*.table-of-contents a {
+      margin-right: 25px;
+    }
+  
+        .button {
       margin: 100px 185px;
       padding: 5px;
       width: 200px;
       height: 70px;
       text-align: center;
-      
-  
-    }
-    .table-of-contents a {
-      margin-right: 25px;
-    }
-  
-    .intro{
+    }*/
+   
+
+  /*  .intro{
     margin-top: -50px;
     margin-left: -50px;
    }
@@ -666,39 +691,9 @@ body {
     .intro1{
   margin-left:-50px;
   margin-right: 0px;
-   }
-     
-    .gallery2{
-  margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 0px;
-   }
+   }*/
+
   
-   .gallery-item{
-     width: 80%;
-   }
+
   
-   .profile img{
-  position: relative;
-    margin-top: 200px;
-  margin-left: -350px;
-    width: 200px;
-    height: 200px;
-    
-   }
-   .about{
-    margin-left: 50px;
-    margin-right: 50px;
-   }
-  
-  .case-study{
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  
-  h5{
-    font-size: 44px;
-  }
-  
-  } 
   
