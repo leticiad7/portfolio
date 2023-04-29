@@ -130,6 +130,11 @@ body {
     display: block;
     height: auto;
   }
+
+  .gallery-image {
+    max-width: 220px;
+    height: 250px;
+  }
   
   .wrapper {
     background-color: white;
